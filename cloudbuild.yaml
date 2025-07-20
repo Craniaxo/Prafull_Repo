@@ -1,8 +1,8 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'us-central1-docker.pkg.dev/lightdust/my-repo/my-image:$COMMIT_SHA', '.']
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/lightdust/Prafull_Repo/my-image:$COMMIT_SHA', '.']
 images:
-  - 'us-central1-docker.pkg.dev/lightdust/my-repo/my-image:$COMMIT_SHA'
+  - 'us-central1-docker.pkg.dev/lightdust/Prafull_Repo/my-image:$COMMIT_SHA'
 serviceAccount: praful-test123@lightdust.iam.gserviceaccount.com' # Replace with your service account
 options:
   logging: CLOUD_LOGGING_ONLY
